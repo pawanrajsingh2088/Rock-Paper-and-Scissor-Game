@@ -1,0 +1,41 @@
+@media only screen and (max-width:1200px){
+    .points p{
+        width: 30vw;
+    }
+}
+@media only screen and (max-width:650px) {
+    h1{
+        font-size: 3.5vh;
+    }
+    .points p{
+        height: 8vh;
+        width: 40vw;
+    }
+    .notify{
+        font-size: 20px;
+    }
+    .head img{
+        height: 17vh;
+    }
+}
+@media only screen and (max-width:400px) {
+    .points{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .points p{
+        height: 10vh;
+        width: 70vw;
+    }
+    .notify{
+        margin-top: 12px;
+    }
+    .head{
+        height: 25vh;
+        gap: 2vw;
+    }
+    .head img{
+        height: 12vh;
+    }
+}
